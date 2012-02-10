@@ -1,0 +1,89 @@
+body { 
+font-size: 80%; 
+font-family: Tahoma, Geneva, sans-serif;
+background: #fff;  
+overflow: hidden;
+vertical-align:baseline;   
+}
+
+
+.clear{  
+	clear: both;  
+	height: 0;  
+	visibility: hidden;  
+	display: block;  
+}
+
+#container{  
+    margin: 7em auto;  
+    width: 600px; 
+	height: 600px;  
+}  
+
+#container ul.tabs li{  
+    float: left;  
+    margin-right: 5px;  
+}  
+#container ul.tabs li{  
+    font-weight: 700;  
+    display: block;  
+    padding: 5px 10px 5px 10px;  
+    
+    margin-bottom: -1px;  
+    border: 2px solid #39F;  
+    border-width: 1px;  
+    position: relative;  
+    color:;#36C;  
+    
+}  
+#container ul.tabs li.active{  
+    background: #FFC;  
+    top: 1px;  
+    border-bottom: 0;   
+    color: #39F;  
+}  
+
+.content{  
+    margin: 0 auto;  
+    background: #FFC;    
+    border: 1px solid #39F;  
+    padding: 10px;  
+    padding-bottom: 20px;  
+    font-size: 18px;  
+}  
+  
+ 
+.content.kittens{  
+    display: block;  
+	color: #F93;
+}  
+
+ 
+.content.puppies{  
+    display: none; 
+	color: #C0C;  
+}  
+  
+.content.lambs{  
+    display: none; 
+	color: #0C3;  
+}  
+
+  
+.content.tarantulas{  
+    display: none; 
+	color:#630; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
